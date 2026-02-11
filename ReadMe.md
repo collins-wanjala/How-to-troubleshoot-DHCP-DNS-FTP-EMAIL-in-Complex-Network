@@ -2,35 +2,10 @@ Troubleshooting DNS, DHCP, FTP, and EMAIL in Cisco Packet Tracer
 📌 Project Overview
 
 This lab focuses on identifying and troubleshooting common issues affecting core enterprise network services:
-
 DHCP (Dynamic Host Configuration Protocol)
-
 DNS (Domain Name System)
-
 FTP (File Transfer Protocol)
-
 Email Server (SMTP / POP3)
-
-The objective is to simulate real-world enterprise network problems and apply systematic troubleshooting techniques using Cisco Packet Tracer.
-
-🏗️ Network Topology
-
-The lab consists of:
-
-1 Router
-
-1 Switch
-
-Multiple PCs (Clients)
-
-1 Server (Running DHCP, DNS, FTP, Email services)
-
-Example Network:
-
-Router (Gateway) – 192.168.10.1
-Server – 192.168.10.2
-Clients – DHCP Assigned (192.168.10.0/24)
-
 🔍 Troubleshooting Guide
 1️⃣ DHCP Troubleshooting
 Common Issues:
@@ -67,8 +42,6 @@ Ensure interface is up/up
 ✔️ If different networks → Configure DHCP Relay:
 
 ip helper-address 192.168.10.2
-
-
 ✔️ On Client:
 Desktop → IP Configuration → Click DHCP
 
