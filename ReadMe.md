@@ -1,4 +1,4 @@
-roubleshooting DNS, DHCP, FTP, and EMAIL in Cisco Packet Tracer
+Troubleshooting DNS, DHCP, FTP, and EMAIL in Cisco Packet Tracer
 📌 Project Overview
 
 This lab focuses on identifying and troubleshooting common issues affecting core enterprise network services:
